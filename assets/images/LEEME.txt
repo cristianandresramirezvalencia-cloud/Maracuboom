@@ -1,0 +1,12 @@
+Coloca aquí las 10 imágenes de Maracuboom con estos nombres EXACTOS:
+
+1.  logo.png               -> Logo de Maracuboom (navbar y footer)
+2.  producto-empaque.jpg   -> Postre en su empaque (inicio / hero)
+3.  postres-frescos.jpg    -> Postres recién preparados (inicio / galería)
+4.  nosotros.jpg           -> Elaboración / equipo (nosotros)
+5.  producto-servido.jpg   -> Postre servido (producto)
+6.  ingredientes.jpg       -> Ingredientes (producto / galería)
+7.  proyecto.jpg           -> Foto del proyecto (proyecto)
+8.  ficha-tecnica.png      -> Imagen de la ficha técnica (producto)
+9.  tabla-costos.png       -> Imagen de la tabla de costos (producto)
+10. proceso.png            -> Diagrama del proceso de elaboración (producto)
