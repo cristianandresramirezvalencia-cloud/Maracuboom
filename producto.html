@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producto | Maracuboom</title>
+  <meta name="description"
+    content="Producto Maracuboom: postre artesanal de maracuyá, ficha técnica, costos de producción y proceso de elaboración.">
+
+  <!--
+    ============================================================
+    RUTAS DE RECURSOS LOCALES
+    - Estilos: ./css/styles.css
+    - JavaScript: ./js/script.js
+    - Imágenes: ./assets/images/
+    - Videos: ./assets/videos/
+    ============================================================
+  -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" href="./assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ============================================================ -->
+  <!-- BARRA DE NAVEGACIÓN STICKY                                    -->
+  <!-- ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="./index.html#inicio" class="navbar__brand" aria-label="Ir al inicio de Maracuboom">
+        <img src="./assets/images/logo.png" alt="Logo Maracuboom" class="navbar__logo-img">
+        <span class="navbar__brand-text">Maracu<em>boom</em></span>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <a href="./index.html#inicio" class="navbar__link">Inicio</a>
+        <a href="./nosotros.html#nosotros" class="navbar__link">Nosotros</a>
+        <a href="./producto.html#producto" class="navbar__link is-active">Producto</a>
+        <a href="./proyecto.html#proyecto" class="navbar__link">Proyecto</a>
+        <a href="./contacto.html#contacto" class="navbar__link">Contacto</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- PARTE 1 — PRODUCTO                                            -->
+  <!-- ============================================================ -->
+  <section id="producto" class="section section--white">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <p class="eyebrow">Nuestra Creación</p>
+        <h2 class="section-title">El Producto</h2>
+        <p class="section-lead">
+          El balance ideal entre el dulce y la acidez natural del maracuyá, fusionando frescura y tradición.
+        </p>
+      </div>
+
+      <!-- Presentación visual del producto -->
+      <div class="product-showcase reveal">
+        <div class="product-gallery">
+          <div class="product-gallery__main-wrap">
+            <!-- Fotografía principal del producto -->
+            <img src="./assets/images/1 jhonny .jpeg" alt="Postre artesanal de maracuyá servido de Maracuboom"
+              class="product-gallery__main">
+          </div>
+          <div class="product-gallery__secondary-wrap">
+            <!-- Fotografía de los ingredientes -->
+            <img src="./assets/images/3 jhonny .jpeg" alt="Ingredientes: pulpa de maracuyá, leche, crema de leche y más"
+              class="product-gallery__secondary">
+          </div>
+        </div>
+
+        <div class="product-showcase__content">
+          <div class="product-badges">
+            <span class="badge badge--rojo">100% Fresco</span>
+            <span class="badge badge--dorado">Dulce & Acidez</span>
+            <span class="badge badge--cafe">Sin Conservantes</span>
+          </div>
+
+          <h3 class="product-showcase__title">Postre artesanal de maracuyá</h3>
+
+          <p class="card__text">
+            Elaborado con pulpa de maracuyá, leche procesada, leche condensada, crema de leche,
+            gelatina sin sabor y azúcar, en una porción individual de 80 g.
+          </p>
+
+          <p class="card__text card__text--highlight">
+            El balance ideal entre el dulce y la acidez natural del maracuyá, 100% fresco y sin
+            conservantes artificiales, en un envase plástico transparente triangular de 8 oz.
+          </p>
+        </div>
+      </div>
+
+      <!-- Ficha técnica del producto (imagen pegada) -->
+      <h3 class="section-subtitle">Ficha técnica</h3>
+      <div class="proceso-showcase reveal">
+        <div class="proceso-showcase__frame">
+          <img src="./assets/images/ficha.png"
+            alt="Ficha técnica del postre artesanal de maracuyá de Maracuboom: nombre, presentación, peso, ingredientes y conservación"
+            class="proceso-showcase__img">
+        </div>
+      </div>
+
+      <!-- Costos de producción (imagen pegada) -->
+      <h3 class="section-subtitle">Costos de producción</h3>
+
+      <div class="costs-table-showcase reveal">
+        <div class="costs-table-showcase__frame">
+          <img src="./assets/images/costos.png"
+            alt="Tabla de costos de producción de Maracuboom: costo de producción por unidad $4.500 COP y precio de venta al público $6.500 COP"
+            class="costs-table-showcase__img">
+        </div>
+      </div>
+
+      <!-- Proceso de elaboración (imagen pegada) -->
+      <h3 class="section-subtitle">Proceso de elaboración</h3>
+
+      <div class="proceso-showcase reveal">
+        <div class="proceso-showcase__frame">
+          <img src="./assets/images/proceso.png"
+            alt="Diagrama del proceso de elaboración de Maracuboom: elaboración artesanal 24 horas antes de la venta y refrigeración constante"
+            class="proceso-showcase__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- PARTE 2 — DATOS CLAVE                                         -->
+  <!-- ============================================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <p class="eyebrow">Datos clave</p>
+        <h2 class="section-title">Lo que debes saber</h2>
+      </div>
+
+      <div class="grid-3">
+        <article class="card card--cream reveal">
+          <div class="card__icon">💰</div>
+          <h3>Costo de producción</h3>
+          <p class="card__text">$4.500 COP por unidad.</p>
+        </article>
+        <article class="card card--amarilla reveal">
+          <div class="card__icon">🛍️</div>
+          <h3>Precio de venta</h3>
+          <p class="card__text">$6.500 COP al público por porción individual de 80 g.</p>
+        </article>
+        <article class="card card--cream reveal">
+          <div class="card__icon">⏰</div>
+          <h3>Elaboración 24 horas antes</h3>
+          <p class="card__text">Se elabora exactamente 24 horas antes de su comercialización y requiere refrigeración constante.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                         -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <img src="./assets/images/logo.png" alt="Logo Maracuboom" class="footer__logo">
+      <h3 class="footer__brand">Maracuboom</h3>
+      <p class="footer__slogan">Balance ideal entre dulce y acidez, 100% fresco.</p>
+
+      <div class="footer__grid">
+        <div>
+          <h4>Maracuboom</h4>
+          <p>Postre artesanal de maracuyá, elaborado sin conservantes artificiales para La Aguadita y Fresno.</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="./index.html#inicio">Inicio</a></li>
+            <li><a href="./nosotros.html#nosotros">Nosotros</a></li>
+            <li><a href="./producto.html#producto">Producto</a></li>
+            <li><a href="./proyecto.html#proyecto">Proyecto</a></li>
+            <li><a href="./contacto.html#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Canales oficiales</h4>
+          <ul>
+            <li><a href="https://wa.me/573124330832" target="_blank" rel="noopener">WhatsApp: 3124330832</a></li>
+            <li><a href="https://instagram.com/maracu_boom2" target="_blank" rel="noopener">Instagram: @maracu_boom2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__credits">
+        Proyecto desarrollado por Jhonny Stiven Betancourt Macías · Institución Educativa La Aguadita · © <span id="year">2026</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript vanilla local -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

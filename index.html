@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maracuboom | Postre artesanal de maracuyá</title>
+  <meta name="description"
+    content="Maracuboom: postre artesanal de maracuyá con balance ideal entre dulce y acidez, 100% fresco y sin conservantes artificiales.">
+
+  <!--
+    ============================================================
+    RUTAS DE RECURSOS LOCALES
+    ============================================================
+    Este proyecto está configurado para ejecutarse 100% OFFLINE.
+    - Estilos: ./css/styles.css
+    - JavaScript: ./js/script.js
+    - Imágenes: ./assets/images/
+    - Videos: ./assets/videos/
+    ============================================================
+  -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" href="./assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ============================================================ -->
+  <!-- BARRA DE NAVEGACIÓN STICKY                                    -->
+  <!-- ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#inicio" class="navbar__brand" aria-label="Ir al inicio de Maracuboom">
+        <!-- Logo local oficial de la marca -->
+        <img src="./assets/images/logo.png" alt="Logo Maracuboom" class="navbar__logo-img">
+        <span class="navbar__brand-text">Maracu<em>boom</em></span>
+      </a>
+
+      <!-- Menú de navegación principal -->
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#inicio" class="navbar__link is-active">Inicio</a>
+        <a href="./nosotros.html#nosotros" class="navbar__link">Nosotros</a>
+        <a href="./producto.html#producto" class="navbar__link">Producto</a>
+        <a href="./proyecto.html#proyecto" class="navbar__link">Proyecto</a>
+        <a href="./contacto.html#contacto" class="navbar__link">Contacto</a>
+      </nav>
+
+      <!-- Botón de menú móvil (Hamburguesa) -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- PARTE 1 — INICIO (HERO SECTION)                               -->
+  <!-- ============================================================ -->
+  <section id="inicio" class="hero">
+    <!-- Formas decorativas SVG integradas en código (Offline) -->
+    <div class="hero__decor" aria-hidden="true">
+      <!-- Fruto de maracuyá -->
+      <svg class="hero__shape hero__shape--fruit" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="currentColor" />
+        <circle class="hero__seed" cx="9" cy="9" r="1.3" />
+        <circle class="hero__seed" cx="15" cy="9" r="1.3" />
+        <circle class="hero__seed" cx="12" cy="14" r="1.3" />
+        <circle class="hero__seed" cx="8.2" cy="14.8" r="1.3" />
+        <circle class="hero__seed" cx="15.8" cy="14.8" r="1.3" />
+      </svg>
+      <!-- Flor de maracuyá -->
+      <svg class="hero__shape hero__shape--flower" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="12" cy="12" r="4" />
+        <circle cx="12" cy="4" r="2.2" />
+        <circle cx="12" cy="20" r="2.2" />
+        <circle cx="4" cy="12" r="2.2" />
+        <circle cx="20" cy="12" r="2.2" />
+        <circle cx="6.3" cy="6.3" r="2.2" />
+        <circle cx="17.7" cy="6.3" r="2.2" />
+        <circle cx="6.3" cy="17.7" r="2.2" />
+        <circle cx="17.7" cy="17.7" r="2.2" />
+      </svg>
+      <!-- Hojas de maracuyá -->
+      <svg class="hero__shape hero__shape--leaf1" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4C11 4 4 11 4 20c9 0 16-7 16-16z" />
+      </svg>
+      <svg class="hero__shape hero__shape--leaf2" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20 4C11 4 4 11 4 20c9 0 16-7 16-16z" />
+      </svg>
+      <!-- Estrellas doradas -->
+      <svg class="hero__shape hero__shape--star1" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2l2.4 7.2h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z" />
+      </svg>
+      <svg class="hero__shape hero__shape--star2" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2l2.4 7.2h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z" />
+      </svg>
+      <!-- Puntos dorados y naranjas -->
+      <span class="hero__dot hero__dot--1"></span>
+      <span class="hero__dot hero__dot--2"></span>
+      <span class="hero__dot hero__dot--3"></span>
+    </div>
+
+    <div class="container">
+      <div class="hero__inner">
+        <!-- Logo en el centro del index -->
+        <div class="hero__logo-center reveal">
+          <div class="hero__logo-frame">
+            <img src="./assets/images/logo.png" alt="Logo oficial de Maracuboom" class="hero__logo-img">
+          </div>
+        </div>
+
+        <!-- Contenido en la parte de abajo manteniendo la estética -->
+        <div class="hero__content reveal">
+          <div class="hero__brand-tag">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 4C11 4 4 11 4 20c9 0 16-7 16-16z" />
+            </svg>
+            <span>Postre artesanal de maracuyá</span>
+          </div>
+
+          <h1 class="hero__title">
+            Maracu<span>boom</span>
+          </h1>
+
+          <p class="hero__slogan">
+            "El balance ideal entre el dulce y la acidez natural del maracuyá."
+          </p>
+
+          <p class="hero__intro">
+            Bienvenido a Maracuboom, un postre artesanal 100% fresco y elaborado sin conservantes
+            artificiales, desarrollado por Jhonny Stiven Betancourt Macías en la Institución
+            Educativa La Aguadita.
+          </p>
+
+          <div class="hero__actions">
+            <a href="./producto.html#producto" class="btn btn--primary">Conoce nuestro producto</a>
+            <a href="./nosotros.html#nosotros" class="btn btn--ghost">Conócenos</a>
+          </div>
+
+          <!-- Insignias destacadas en la parte inferior -->
+          <div class="hero__badges-row">
+            <div class="hero__badge-pill">
+              <span class="hero__badge-dot"></span>
+              <span><strong>100% Fresco</strong> · Elaborado 24h antes</span>
+            </div>
+            <div class="hero__badge-pill">
+              <span class="hero__badge-dot"></span>
+              <span><strong>Porción individual 80 g</strong> · $6.500 COP</span>
+            </div>
+            <div class="hero__badge-pill">
+              <span class="hero__badge-dot"></span>
+              <span><strong>Envase triangular</strong> de 8 oz</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                         -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <img src="./assets/images/logo.png" alt="Logo Maracuboom" class="footer__logo">
+      <h3 class="footer__brand">Maracuboom</h3>
+      <p class="footer__slogan">"El balance ideal entre el dulce y la acidez natural del maracuyá."</p>
+
+      <div class="footer__grid">
+        <div>
+          <h4>Maracuboom</h4>
+          <p>Postre artesanal de maracuyá, elaborado sin conservantes artificiales para La Aguadita y Fresno.</p>
+        </div>
+        <div>
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="./index.html#inicio">Inicio</a></li>
+            <li><a href="./nosotros.html#nosotros">Nosotros</a></li>
+            <li><a href="./producto.html#producto">Producto</a></li>
+            <li><a href="./proyecto.html#proyecto">Proyecto</a></li>
+            <li><a href="./contacto.html#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Canales oficiales</h4>
+          <ul>
+            <li><a href="https://wa.me/573124330832" target="_blank" rel="noopener">WhatsApp: 3124330832</a></li>
+            <li><a href="https://instagram.com/maracu_boom2" target="_blank" rel="noopener">Instagram: @maracu_boom2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__credits">
+        Proyecto desarrollado por Jhonny Stiven Betancourt Macías · Institución Educativa La Aguadita · © <span id="year">2026</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Script JavaScript vanilla local -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
